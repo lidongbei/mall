@@ -1,19 +1,11 @@
 server:
-  port: 19100
+  port: 19200
 
 eureka:
   instance:
-    hostname: config
+    hostname: user-service
     prefer-ip-address: true
 
   client:
     service-url:
       defaultZone: http://localhost:19000/eureka/
-spring:
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/lidongbei/mall.git
-          username:
-          password:
