@@ -1,3 +1,5 @@
+profile: profile-dev
+
 eureka:
   instance:
     prefer-ip-address: true
