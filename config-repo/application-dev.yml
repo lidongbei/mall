@@ -5,3 +5,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://usre:password@localhost:19000/eureka/
+      instance-id: ${spring.application.name}:${server.port}
